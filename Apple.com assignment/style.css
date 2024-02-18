@@ -1,0 +1,196 @@
+@font-face {
+    font-family: fontregular;
+    src: url(./Images/fonts/sf-pro-display_regular\ \(1\).ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fontregular;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    gap: 2vw;
+    width: 100%;
+    height: 5vh;
+    background-color:#24231f;
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+nav i {
+    font-size: 1.1vw;
+    color: #fff;
+
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 165vh; */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: none;
+
+
+}
+
+.part1 img {
+    object-fit: cover;
+    height: 30%;
+    width: 100%;
+}
+
+.text-part1 {
+    position: fixed;
+    align-items: center;
+    top: 80%;
+    color: black;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    color: black;
+    gap: 1vh;
+    position: relative;
+    
+}
+.part2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+    
+}
+.text-part2{
+    position: absolute;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    top: 17%;
+    
+
+
+}
+.text-part1 h1{
+    position: fixed;
+}
+.img1{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+
+
+}
+.part3{
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow: none;
+    align-items: center;
+}
+.part3 img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+.text3{
+    position: absolute;
+}
+.text3 h2{
+    font-size: 4rem;
+}
+.watch-mac{
+    display: flex;
+    margin: 10px;
+}
+.watch-mac img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+
+}
+.applewatch, .macbook{
+    position: relative;
+}
+.watchlogo img, .cardlogo img, .tradelogo img{
+    width: 112px;
+    height: 40px;
+    position: absolute;
+    top: 18%;
+    left: 44%;
+   
+}
+.watchlogo h3, .cardlogo h3{
+    position: absolute;
+    top: 33%;
+    left: 43%;
+    color: white;
+    
+}
+.maclogo h2, .tradelogo h4{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 3rem;
+}
+.maclogo p{
+    font-size: 18px;    
+}
+.cardlogo img, .tradelogo img{
+    width: 108px;
+    height: 33px;
+}
+.tradelogo img{
+    width: 170px;
+}
+.cardlogo h3{
+    color: #000;
+    margin-top: -40px;
+}
+.tradelogo h4{
+    font-size: 1rem;
+    margin-top: 80px;
+}
+.slider img{
+    width: 100%;
+    height: 100vh;
+}
+.ac-globalfooter .ac-gf-sosumi {
+    border-bottom: 1px solid var(--footer-section-border-color);
+    padding: 17px 0 11px;
+    display: block;
+    margin: 20px;
+}
+.ac-globalfooter  {
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.7rem;
+    letter-spacing: inherit;
+    text-align: inherit;
+
+}
+.ac-globalfooter ul{
+    list-style: none;
+}

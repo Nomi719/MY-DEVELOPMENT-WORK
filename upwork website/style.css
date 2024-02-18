@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+nav{
+    top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 2;
+}
+.nav-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    align-items: center;
+    box-shadow: white;
+}
+.nav-first img{
+    width: 82px;
+    height: 22px;
+}
+.nav-first{
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-second{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    gap: 30px;
+}
+.search{
+    border: 2px solid #e4ebe4;
+    border-radius: 20px;
+    width: 300px;
+    height: 36px;
+    position: relative;
+    display: flex;
+    padding: 0 8px;
+}
+.search i{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.search input{
+    padding: 1px 30px 0px;
+    border: none;
+    align-items: center;
+    height: 100%;
+    border-radius: 20px;
+    outline: none;
+
+}
+.search input::placeholder{
+    align-items: center;
+    color: black;
+}
+.search select{
+    width: 30%;
+    border-radius: 0 20px 20px 0;
+    outline: none;
+    border: none;
+}
+.btnclass{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.btnclass button{
+    border: none;
+    border-radius: 25px;
+    background-color:#108A00;
+    color: white;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+
+}
+.sub-nav ul{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+    text-decoration: none;
+    padding: 10px 24px;
+    margin: auto;
+    list-style: none;
+    font : 14px "Neue Montreal"
+
+}
+.heroparent{
+    display: flex;
+}
+.hero{
+    margin: 0px 0px 12px;
+    font: 40px rza, rza fallback;
+    padding: 0px 64px;
+    color: #108A00;
+    line-height: 80px;
+    position: relative;
+    top: 80px;
+}
+.hero p{
+    font-size: 22px ;
+    line-height:32px ;
+    
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color: #838F7C;
+        
+
+}
+.hero a{
+    position: relative;
+    font-size: 16px;
+    color: white;
+    background-color: #108A00;
+    padding: 0 24px;
+    border-radius: 20px;
+    
+
+}
+.subhero{
+    position: relative;
+    bottom: 10%;
+    margin-top: 60px;
+}
+.subhero a{
+    padding: 10px 20px;
+}
+.herologo{
+    position: relative;
+    bottom: 40px;
+}
+.subhero1 p{
+    font-size: 16px;
+}
+.hero2 img{
+    position: relative;
+    width: 440px;
+    height: 299px;
+    /* left: 0; */
+    vertical-align: middle;
+    margin:60px 30px;
+    left: 20%;
+    
+}
+.hero2{
+
+
+}
+.gradient-color{
+    background: linear-gradient(100deg,#aceace,#48e1cf,#cf9dbb,#70e4ce,#88e4c5);
+    animation: gradientAnimation-eaa3ceac 8s ease-out infinite;
+    background-size: 200% 200%;
+    margin: 60px 60px;
+    height: 50vh;
+    border-bottom-left-radius: 100px;
+
+}
+ .gradient-text{
+    font-size: 54px;
+    color: #13544E;
+    margin: 0px 0px 16px;
+    padding: 12px 0px 0px;
+}
+.main-section{
+    padding: 48px 32px 0px 40px;
+
+}
+.main-section img{
+    width: 97px;
+    height: 97px;
+    background-color: none;
+    margin-top: 20px;
+}
+/* .caw-embedded .caw-dialogue-deck[data-v-eaa3ceac] {
+    height: 230px;
+    box-shadow: 5px 5px 25px rgba(19,84,78,.08);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    margin: -85px 16px 0;
+} */
+.gradient-messages{
+    position: absolute;
+    left: 5%;
+    /* border: 1px solid red; */
+    background-color: white;
+    font-size: 25px;
+    line-height: 2.5rem;
+    margin: -90px 32px 0px 235px;
+    border-radius: 0px 10px 10px 10px;
+    padding: 48px 15px 16px;
+
+}
+.button-user button{
+    margin: 4px 0px;
+    padding: 12px;
+    color: #108A00;
+    background-color: white;
+    font-size: 18px;
+    margin-bottom: 4px;
+    border: 2px solid var(--gray-80);
+    text-align: left;
+    cursor: pointer;
+}
+.para{
+    font-size: 11px;
+    color: #838F7C;
+    text-align: right;
+}
+.browse{
+    margin: 150px 30px;
+
+
+}
+.browse-part{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.browse-child{
+    margin: -80px 30px;
+    padding: 20px 20px 52px;
+    line-height: 2rem;
+    height: 134px;
+    width: 263px;
+    background-color: gainsboro;
+    text-align: center;
+    align-items: center;
+
+
+
+}
+.browse-child svg{
+    width: 16px;
+    height: 16px;
+    color:green;
+}
+.browse-child a{
+    font-size: 23px;
+    align-items: center;
+
+}
+.skills{
+    margin-left: 25px;
+    padding: 2px 0px 0px;
+}
+.browse-part2{
+    display: flex;
+    justify-content: center;
+}
+.browse-child2{
+    margin: -80px 30px;
+    padding: 20px 20px 52px;
+    line-height: 2rem;
+    height: 134px;
+    width: 263px;
+    background-color: gainsboro;
+    text-align: center;
+    align-items: center;
+
+
+}
+.browse-child2 svg{
+    width: 16px;
+    height: 16px;
+    color:green;
+
+}
+.browse-child2 a{
+    font-size: 23px;
+    align-items: center;
+
+
+}
+.skills2{
+    margin-left: 25px;
+    padding: 2px 0px 0px;
+}
+.browse-part3{
+    display: flex;
+}
+.browse-child3{
+    margin: 100px 30px;
+}
+.browse-child4{
+    margin: 100px 30px;
+    line-height: 2rem;
+}
+.browse-child4 h1{
+    font-size: 40px;
+    margin: 0px 0px 16px;
+}
+.browse-child4 h5{
+    font-size: 20px;
+}
+.browse-child4 button{
+
+    font-size: 16px;
+    background-color: #108A00;
+    color: white;
+    margin: 18px 16px 0px 0px;
+    padding: 0px 24px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.browse-part4{
+    display: flex;
+    width: 1155px;
+    height: 535px;
+    background-color: #13544E;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.child1{
+    margin: 30px 30px;
+}
+.child1 h1{
+    font-size: 56px;
+    margin: 10px 0px 20px;
+    line-height: 4rem;
+
+}
+.child1 p,h5{
+    color: white;
+}
+.color{
+    color: white;
+
+}
+
+.color2{
+    color: #91E6B3;
+}
+.child1 button{
+    color: #13544E;
+    background-color: white;
+    margin: 25px 0px 0px;
+    padding: 0px 24px;
+    border-radius: 10px;
+
+}
+.child2 img{
+    width: 465px;
+    height: 535px;
+    margin-left: 105px;
+
+}
+.browse-part5{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 11%;
+
+  
+}
+.browse-part5 img{
+    width: 1175px;
+    height: 535px;
+    border-radius: 5px;
+}
+.imgtext{
+    opacity: 1;
+    position: absolute;
+    right: 60%;
+    margin: 30px 30px;
+}
+.imgtext h1{
+    font-size: 72px;
+    color: white;
+}
+.imgtext p{
+    font-size: 18px;
+    margin: 30px 0px 20px;
+    color: white;
+}
+.browse-part6{
+    background-color: #F2F7F2;
+    width: 800px;
+    height: 530px;
+    margin: 10px 100px;
+    display: flex;
+}
+.textchild{
+
+ 
+}
+.textchild h1{
+
+    margin: 10px 0px;
+    padding: 0px 100px 0px 0px;
+    font-size: 50px;
+
+}
+.textchild h3{
+
+    font-size: 15px;
+    color: black;
+    margin: 0px 0px 10px;
+
+
+}
+.img1 img{
+    width: 368px;
+    height: 546px;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+}
+.textchild2{
+    background-color: #108A00;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 55%;
+    padding-left: 100px;
+    padding-top: 55px;
+    font-size: 33px;
+    color: white;
+}
+.textchild2 h3{
+    position: relative;
+    top: 25%;
+    left: -50%;
+}
+.browse-part7{
+    display: flex;
+}
+.child01 img{
+    width: 650px;
+    height: 700px;
+    margin: 70px 70px;
+}
+.child02{
+
+    width: 650px;
+    height: 700px;
+    background-color: #1F57C3;
+    margin: 70px -70px;
+    
+
+    
+}
+.child02 h1{
+    font-size: 72px;
+    color: white;
+    margin: 0px 0px 60px;
+    padding: 30px 50px 40px;
+}
+.child02 p{
+    font-size: 18px;
+    color: white;
+    padding: 30px 50px 0px;
+
+}
+.text00{
+    font-size: 72px;
+    padding-left:60px ;
+    color: #001E00;
+}
