@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelp App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="bg-pic">
+        <header class="mainhead">
+            <div>
+                <a href="#"><img src="./images/logo_desktop_white.svg" alt=""></a>
+            </div>
+            <div class="input">
+                <span><input type="text" placeholder="things to do, nails saloon, plumb">
+                    <input type="text" placeholder="address, neighbourhood, city, state"></span>
+                <span><i class="fa-solid fa-magnifying-glass searchbar"></i></span>
+            </div>
+            <div class="headrightside">
+                <span class="span-style">Yelp for bussiness <i class="fa-solid fa-angle-down"></i></span>
+                <span class="span-style">Write a review</span>
+                <span><button class="btn-1">Log In</button></span>
+                <span><button class="btn-2">Sign Up</button></span>
+            </div>
+
+
+        </header>
+        <nav class="sub-nav">
+            <span>Resturant <i class="fa-solid fa-angle-down"></i> </span>
+            <span>Home services <i class="fa-solid fa-angle-down"></i></span>
+            <span>Auto services <i class="fa-solid fa-angle-down"></i></span>
+            <span>More <i class="fa-solid fa-angle-down dropdown"></i></span>
+
+        </nav>
+        <div class="container">
+            <h1>Leave it to the pros</h1>
+
+            <span><button> <i class="fa-solid fa-magnifying-glass"></i> Handyman </button></span>
+        </div>
+    </div>
+
+    <section class="main">
+        <h2 class="recent">Recent Activity</h2>
+        <div class="combined-div">
+            <div class="css-tduzx3">
+                <div class="css-9vhmz3">
+                    <div class="css-174ed5s">
+                        <div class=" css-1qn0b6x">
+                            <div class="css-1lt8ux3">
+                                <div class="css-1c9o6ng"><a href="/user_details?userid=jisQEtwfrOKBmssWoiXljg">
+                                        <div class="css-eqfjza"><img class=" css-1pz4y59"
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/is6WYqUTbf6czh4KNljZqA/60s.jpg"
+                                                srcset="https://s3-media0.fl.yelpcdn.com/photo/is6WYqUTbf6czh4KNljZqA/60s.jpg 1x, https://s3-media0.fl.yelpcdn.com/photo/is6WYqUTbf6czh4KNljZqA/120s.jpg 2x"
+                                                alt="Photo of Rosie W." height="40" width="40" loading="lazy"
+                                                draggable="true"></div>
+                                    </a></div>
+                                <div class="css-1u1p5a2">
+                                    <p class="css-12zdgw">Rosie W. wrote a review</p>
+                                    <p class="css-14rg9mg">Just now</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" css-1o8gxb7"></div>
+                    </div>
+                    <div class="css-1c9o6ng">
+                        <div class="css-18mi2um"><a
+                                href="/biz/k-elements-bbq-san-francisco-3?hrid=QOPMSbY0ZD7LMVMb9KSNZw"
+                                class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                    src="https://s3-media0.fl.yelpcdn.com/bphoto/X0dvLCHhjLfbg4B9UuRHkg/l.jpg"
+                                    alt="Photo of K-Elements BBQ" height="200" width="300" loading="eager"
+                                    draggable="true"></a></div>
+                    </div>
+                    <div class="css-s9xn3">
+                        <div class=" css-1qn0b6x"><a
+                                href="/biz/k-elements-bbq-san-francisco-3?hrid=QOPMSbY0ZD7LMVMb9KSNZw"
+                                class="css-182o411" role="link">
+                                <p class=" css-1c994ch">K-Elements BBQ</p>
+                            </a></div>
+                        <div class=" css-rmo15j"><span class=" css-1d8srnw">
+                                <div class="css-nv6xcx" role="img" aria-label="1 star rating">
+                                    <div class="css-6sazyo"><svg width="16" height="16" viewBox="0 0 16 16">
+                                            <path fill="rgba(255,204,75,1)" opacity="1"
+                                                d="M0 4C0 1.79086 1.79086 0 4 0H8V16H4C1.79086 16 0 14.2091 0 12V4Z">
+                                            </path>
+                                            <path fill="rgba(255,204,75,1)" opacity="1"
+                                                d="M16 4C16 1.79086 14.2091 0 12 0H8V16H12C14.2091 16 16 14.2091 16 12V4Z">
+                                            </path>
+                                            <path fill="white" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99999 10.6989L10.0759 11.7689C10.1902 11.8279 10.3205 11.8485 10.4474 11.8278C10.7745 11.7744 10.9963 11.466 10.943 11.139L10.5668 8.834L12.2259 7.19036C12.3173 7.09983 12.3772 6.98233 12.3967 6.85519C12.447 6.52766 12.2223 6.22137 11.8947 6.17106L9.58635 5.81655L8.53586 3.7307C8.478 3.61581 8.38475 3.52256 8.26987 3.46471C7.97391 3.31565 7.61316 3.43474 7.46411 3.7307L6.41362 5.81655L4.10524 6.17106C3.97809 6.19059 3.86059 6.25046 3.77006 6.34184C3.53685 6.57726 3.53863 6.95715 3.77405 7.19036L5.43319 8.834L5.05702 11.139C5.0363 11.2659 5.05693 11.3962 5.11587 11.5105C5.26769 11.805 5.62954 11.9207 5.92409 11.7689L7.99999 10.6989V10.6989Z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="css-6sazyo"><svg width="16" height="16" viewBox="0 0 16 16">
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M0 4C0 1.79086 1.79086 0 4 0H8V16H4C1.79086 16 0 14.2091 0 12V4Z">
+                                            </path>
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M16 4C16 1.79086 14.2091 0 12 0H8V16H12C14.2091 16 16 14.2091 16 12V4Z">
+                                            </path>
+                                            <path fill="white" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99999 10.6989L10.0759 11.7689C10.1902 11.8279 10.3205 11.8485 10.4474 11.8278C10.7745 11.7744 10.9963 11.466 10.943 11.139L10.5668 8.834L12.2259 7.19036C12.3173 7.09983 12.3772 6.98233 12.3967 6.85519C12.447 6.52766 12.2223 6.22137 11.8947 6.17106L9.58635 5.81655L8.53586 3.7307C8.478 3.61581 8.38475 3.52256 8.26987 3.46471C7.97391 3.31565 7.61316 3.43474 7.46411 3.7307L6.41362 5.81655L4.10524 6.17106C3.97809 6.19059 3.86059 6.25046 3.77006 6.34184C3.53685 6.57726 3.53863 6.95715 3.77405 7.19036L5.43319 8.834L5.05702 11.139C5.0363 11.2659 5.05693 11.3962 5.11587 11.5105C5.26769 11.805 5.62954 11.9207 5.92409 11.7689L7.99999 10.6989V10.6989Z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="css-6sazyo"><svg width="16" height="16" viewBox="0 0 16 16">
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M0 4C0 1.79086 1.79086 0 4 0H8V16H4C1.79086 16 0 14.2091 0 12V4Z">
+                                            </path>
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M16 4C16 1.79086 14.2091 0 12 0H8V16H12C14.2091 16 16 14.2091 16 12V4Z">
+                                            </path>
+                                            <path fill="white" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99999 10.6989L10.0759 11.7689C10.1902 11.8279 10.3205 11.8485 10.4474 11.8278C10.7745 11.7744 10.9963 11.466 10.943 11.139L10.5668 8.834L12.2259 7.19036C12.3173 7.09983 12.3772 6.98233 12.3967 6.85519C12.447 6.52766 12.2223 6.22137 11.8947 6.17106L9.58635 5.81655L8.53586 3.7307C8.478 3.61581 8.38475 3.52256 8.26987 3.46471C7.97391 3.31565 7.61316 3.43474 7.46411 3.7307L6.41362 5.81655L4.10524 6.17106C3.97809 6.19059 3.86059 6.25046 3.77006 6.34184C3.53685 6.57726 3.53863 6.95715 3.77405 7.19036L5.43319 8.834L5.05702 11.139C5.0363 11.2659 5.05693 11.3962 5.11587 11.5105C5.26769 11.805 5.62954 11.9207 5.92409 11.7689L7.99999 10.6989V10.6989Z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="css-6sazyo"><svg width="16" height="16" viewBox="0 0 16 16">
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M0 4C0 1.79086 1.79086 0 4 0H8V16H4C1.79086 16 0 14.2091 0 12V4Z">
+                                            </path>
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M16 4C16 1.79086 14.2091 0 12 0H8V16H12C14.2091 16 16 14.2091 16 12V4Z">
+                                            </path>
+                                            <path fill="white" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99999 10.6989L10.0759 11.7689C10.1902 11.8279 10.3205 11.8485 10.4474 11.8278C10.7745 11.7744 10.9963 11.466 10.943 11.139L10.5668 8.834L12.2259 7.19036C12.3173 7.09983 12.3772 6.98233 12.3967 6.85519C12.447 6.52766 12.2223 6.22137 11.8947 6.17106L9.58635 5.81655L8.53586 3.7307C8.478 3.61581 8.38475 3.52256 8.26987 3.46471C7.97391 3.31565 7.61316 3.43474 7.46411 3.7307L6.41362 5.81655L4.10524 6.17106C3.97809 6.19059 3.86059 6.25046 3.77006 6.34184C3.53685 6.57726 3.53863 6.95715 3.77405 7.19036L5.43319 8.834L5.05702 11.139C5.0363 11.2659 5.05693 11.3962 5.11587 11.5105C5.26769 11.805 5.62954 11.9207 5.92409 11.7689L7.99999 10.6989V10.6989Z">
+                                            </path>
+                                        </svg></div>
+                                    <div class="css-1r08rsj"><svg width="16" height="16" viewBox="0 0 16 16">
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M0 4C0 1.79086 1.79086 0 4 0H8V16H4C1.79086 16 0 14.2091 0 12V4Z">
+                                            </path>
+                                            <path fill="#BBBAC0" opacity="0.5"
+                                                d="M16 4C16 1.79086 14.2091 0 12 0H8V16H12C14.2091 16 16 14.2091 16 12V4Z">
+                                            </path>
+                                            <path fill="white" fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.99999 10.6989L10.0759 11.7689C10.1902 11.8279 10.3205 11.8485 10.4474 11.8278C10.7745 11.7744 10.9963 11.466 10.943 11.139L10.5668 8.834L12.2259 7.19036C12.3173 7.09983 12.3772 6.98233 12.3967 6.85519C12.447 6.52766 12.2223 6.22137 11.8947 6.17106L9.58635 5.81655L8.53586 3.7307C8.478 3.61581 8.38475 3.52256 8.26987 3.46471C7.97391 3.31565 7.61316 3.43474 7.46411 3.7307L6.41362 5.81655L4.10524 6.17106C3.97809 6.19059 3.86059 6.25046 3.77006 6.34184C3.53685 6.57726 3.53863 6.95715 3.77405 7.19036L5.43319 8.834L5.05702 11.139C5.0363 11.2659 5.05693 11.3962 5.11587 11.5105C5.26769 11.805 5.62954 11.9207 5.92409 11.7689L7.99999 10.6989V10.6989Z">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                            </span></div>
+                        <div class=" css-1qn0b6x">
+                            <div class=" css-1qn0b6x">
+                                <div class=" css-1qn0b6x" role="region" aria-live="polite"
+                                    id="expander-link-content-:r0:">
+                                    <p class="css-gul73a">I didn't think there was anything special or unique about
+                                        K-Elements. When you're comparing Korean BBQ restaurants around the bay area,
+                                        this
+                                        place doesn't really stand out to me. The cuts of meat aren't extraordinary and
+                                        I
+                                        found that many of them are marinated too salty and too fatty. There are some
+                                        cuts
+                                        that were so bad, we couldn't even chew through it.</p>
+                                </div><button class=" css-1n40tdh" aria-expanded="false"
+                                    aria-controls="expander-link-content-:r0:" type="submit"><span class="css-15j7fnr">
+                                        <p class=" css-war30n" data-font-weight="semibold">Read more</p>
+                                    </span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="css-jarney">
+                        <div class=" css-i0yo8m">
+                            <div class="css-15y2t5r">
+                                <div class="css-1c9o6ng">
+                                    <div class="css-1stzk3b" aria-label="Helpful (0 reactions)" role="button"
+                                        aria-pressed="false" aria-disabled="false" tabindex="0">
+                                        <div class="css-15auhu0">
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-1w4iqij">
+                                                    <div class="reaction--button css-1q7tf05"
+                                                        data-testid="reaction-button">
+                                                        <img src="https://s3-media0.fl.yelpcdn.com/assets/public/24x24_helpful_bulb_v2.yji-927d56e36e3a11c12e58.svg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-41avan">
+                                                    <div class="css-1c9o6ng"> </div>
+                                                    <div class="css-12xzhjz" aria-hidden="true"> <span
+                                                            class=" css-1sb02f4">1</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="css-1c9o6ng">
+                                    <div class="css-1stzk3b" aria-label="Thanks (0 reactions)" role="button"
+                                        aria-pressed="false" aria-disabled="false" tabindex="0">
+                                        <div class="css-15auhu0">
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-1w4iqij">
+                                                    <div class="reaction--button css-1q7tf05"
+                                                        data-testid="reaction-button">
+                                                        <img src="https://s3-media0.fl.yelpcdn.com/assets/public/24x24_thanks_v2.yji-1fec900fe14a2fa15c10.svg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-41avan">
+                                                    <div class="css-1c9o6ng"> </div>
+                                                    <div class="css-12xzhjz" aria-hidden="true"> <span
+                                                            class=" css-1sb02f4">1</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="css-1c9o6ng">
+                                    <div class="css-1stzk3b" aria-label="Love this (0 reactions)" role="button"
+                                        aria-pressed="false" aria-disabled="false" tabindex="0">
+                                        <div class="css-15auhu0">
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-1w4iqij">
+                                                    <div class="reaction--button css-1q7tf05"
+                                                        data-testid="reaction-button">
+                                                        <img src="https://s3-media0.fl.yelpcdn.com/assets/public/24x24_love_this_v2.yji-e4b17143e9d097f34029.svg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-41avan">
+                                                    <div class="css-1c9o6ng"> </div>
+                                                    <div class="css-12xzhjz" aria-hidden="true"> <span
+                                                            class=" css-1sb02f4">1</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="css-1c9o6ng">
+                                    <div class="css-1stzk3b" aria-label="Oh no (0 reactions)" role="button"
+                                        aria-pressed="false" aria-disabled="false" tabindex="0">
+                                        <div class="css-15auhu0">
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-1w4iqij">
+                                                    <div class="reaction--button css-1q7tf05"
+                                                        data-testid="reaction-button">
+                                                        <img src="https://s3-media0.fl.yelpcdn.com/assets/public/24x24_oh_no_v2.yji-d19e61e9dc84c2e954c1.svg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="css-1c9o6ng">
+                                                <div class="css-41avan">
+                                                    <div class="css-1c9o6ng"> </div>
+                                                    <div class="css-12xzhjz" aria-hidden="true"> <span
+                                                            class=" css-1sb02f4">1</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="css-9vhmz3">
+                <div class="css-174ed5s">
+                    <div class=" css-1qn0b6x">
+                        <div class="css-1lt8ux3">
+                            <div class="css-1c9o6ng"><a href="/user_details?userid=SxAZs8m5rcYwj8WwDOGUrA">
+                                    <div class="css-eqfjza"><img class=" css-1pz4y59"
+                                            src="https://s3-media0.fl.yelpcdn.com/photo/SgX_W5E3pEi7dkHyTvWIww/60s.jpg"
+                                            srcset="https://s3-media0.fl.yelpcdn.com/photo/SgX_W5E3pEi7dkHyTvWIww/60s.jpg 1x, https://s3-media0.fl.yelpcdn.com/photo/SgX_W5E3pEi7dkHyTvWIww/120s.jpg 2x"
+                                            alt="Photo of Lynn F." height="40" width="40" loading="lazy"
+                                            draggable="true">
+                                    </div>
+                                </a></div>
+                            <div class="css-1u1p5a2">
+                                <p class="css-12zdgw">Lynn F. added a photo</p>
+                                <p class="css-14rg9mg">4 minutes ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" css-1o8gxb7"></div>
+                </div>
+                <div class="css-s9xn3">
+                    <div class=" css-1hqozct">
+                        <div class=" css-1qn0b6x">
+                            <div class=" css-1qn0b6x">
+                                <div class=" css-1rocox3">
+                                    <div class=" css-1qn0b6x" aria-labelledby="businessPassport-:r5:" role="region">
+                                        <div class="container__09f24__jlwpK css-1knnyis">
+                                            <div class="css-1jlm262">
+                                                <div class="css-mbp3hu">
+                                                    <div class="css-opmknv">
+                                                        <div class="businessTitleContainer__09f24__Teg0n css-1qn0b6x">
+                                                            <p class=" css-1c994ch"><a
+                                                                    href="/biz/city-of-san-francisco-san-francisco"
+                                                                    class="businessTitleLink__09f24__yn6_N css-1dvzjst"
+                                                                    target="_self" id="businessPassport-:r5:"
+                                                                    role="link">City of San Francisco</a></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="css-1c9o6ng"></div>
+                                                </div>
+                                                <div class=" css-1pkb2vf">
+                                                    <div
+                                                        class="arrange__09f24__LDfbs gutter-1__09f24__yAbCL vertical-align-middle__09f24__zU9sE css-1qn0b6x">
+                                                        <div class="arrange-unit__09f24__rqHTg css-v3nuob"><span
+                                                                class=" css-1d8srnw">
+                                                                <div class="css-14g69b3" role="img"
+                                                                    aria-label="4.1 star rating">
+                                                                    <div class="css-1ljpb85"><svg width="20" height="20"
+                                                                            viewBox="0 0 20 20">
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                            </path>
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                            </path>
+                                                                            <path fill="white" fill-rule="evenodd"
+                                                                                clip-rule="evenodd"
+                                                                                d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="css-1ljpb85"><svg width="20" height="20"
+                                                                            viewBox="0 0 20 20">
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                            </path>
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                            </path>
+                                                                            <path fill="white" fill-rule="evenodd"
+                                                                                clip-rule="evenodd"
+                                                                                d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="css-1ljpb85"><svg width="20" height="20"
+                                                                            viewBox="0 0 20 20">
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                            </path>
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                            </path>
+                                                                            <path fill="white" fill-rule="evenodd"
+                                                                                clip-rule="evenodd"
+                                                                                d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="css-1ljpb85"><svg width="20" height="20"
+                                                                            viewBox="0 0 20 20">
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                            </path>
+                                                                            <path fill="rgba(255,100,61,1)" opacity="1"
+                                                                                d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                            </path>
+                                                                            <path fill="white" fill-rule="evenodd"
+                                                                                clip-rule="evenodd"
+                                                                                d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                    <div class="css-tgzc6n"><svg width="20" height="20"
+                                                                            viewBox="0 0 20 20">
+                                                                            <path fill="#BBBAC0" opacity="0.5"
+                                                                                d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                            </path>
+                                                                            <path fill="#BBBAC0" opacity="0.5"
+                                                                                d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                            </path>
+                                                                            <path fill="white" fill-rule="evenodd"
+                                                                                clip-rule="evenodd"
+                                                                                d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                            </path>
+                                                                        </svg></div>
+                                                                </div>
+                                                                <meta itemprop="ratingValue" content="4.1">
+                                                            </span></div>
+                                                        <div
+                                                            class="arrange-unit__09f24__rqHTg arrange-unit-fill__09f24__CUubG css-1qn0b6x">
+                                                            <span
+                                                                class="fixed-size-text__09f24__bUCrM fixed-size-text--small__09f24__Bc2oE css-chan6m"><span
+                                                                    class=""><span
+                                                                        itemprop="reviewCount">467</span></span></span>
+                                                        </div>
+                                                    </div>
+                                                </div><span class=" css-1d8srnw"></span><span class=" css-1d8srnw"><span
+                                                        class=" css-1d8srnw" aria-label="Categories"><span
+                                                            class=" css-1d8srnw"><span
+                                                                class="fixed-size-text__09f24__bUCrM fixed-size-text--small__09f24__Bc2oE css-12i50in">Local
+                                                                Flavor</span></span></span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" css-1qn0b6x">
+                        <div class=" css-1qn0b6x">
+                            <div class="css-1cuj5ne"><a
+                                    href="/biz_photos/city-of-san-francisco-san-francisco?userid=SxAZs8m5rcYwj8WwDOGUrA"
+                                    class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                        src="https://s3-media0.fl.yelpcdn.com/bphoto/xsgAYmLhxvnpNIH4S226og/l.jpg"
+                                        alt="Photo of City of San Francisco" height="200" width="300" loading="eager"
+                                        draggable="true"></a></div>
+                            <div class="css-6qm0e7">
+                                <div class="css-1hbmzzg">
+                                    <div class="css-1c9o6ng">
+                                        <div class="css-1stzk3b" aria-label="0 likes" role="button" aria-pressed="false"
+                                            aria-disabled="false" tabindex="0">
+                                            <div class="css-15auhu0">
+                                                <div class="css-1c9o6ng">
+                                                    <div class="css-1w4iqij">
+                                                        <div class="reaction--button css-1q7tf05"
+                                                            data-testid="reaction-button"><span alt=""
+                                                                aria-hidden="true" role="img"
+                                                                class="icon--24-like-v2 css-18q1t4s"><svg width="24"
+                                                                    height="24" class="icon_svg">
+                                                                    <path
+                                                                        d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h6v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z">
+                                                                    </path>
+                                                                </svg></span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="css-1c9o6ng">
+                                                    <div class="css-41avan">
+                                                        <div class="css-1c9o6ng"> </div>
+                                                        <div class="css-12xzhjz" aria-hidden="true"><span
+                                                                class=" css-gutk1c">likes</span> <span
+                                                                class=" css-1sb02f4">1</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="css-tduzx3">
+                <div class="css-9vhmz3">
+                    <div class="css-174ed5s">
+                        <div class=" css-1qn0b6x">
+                            <div class="css-1lt8ux3">
+                                <div class="css-1c9o6ng"><a href="/user_details?userid=BD0GW9Z0J_bo-QA3Su1PwQ">
+                                        <div class="css-eqfjza"><img class=" css-1pz4y59"
+                                                src="https://s3-media0.fl.yelpcdn.com/photo/CP-5gHLJV4uc3ERCiJB-8w/60s.jpg"
+                                                srcset="https://s3-media0.fl.yelpcdn.com/photo/CP-5gHLJV4uc3ERCiJB-8w/60s.jpg 1x, https://s3-media0.fl.yelpcdn.com/photo/CP-5gHLJV4uc3ERCiJB-8w/120s.jpg 2x"
+                                                alt="Photo of Stef S." height="40" width="40" loading="lazy"
+                                                draggable="true"></div>
+                                    </a></div>
+                                <div class="css-1u1p5a2">
+                                    <p class="css-12zdgw">Stef S. added 6 photos</p>
+                                    <p class="css-14rg9mg">8 minutes ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" css-1o8gxb7"></div>
+                    </div>
+                    <div class="css-1oe070m">
+                        <div class=" css-1hqozct">
+                            <div class=" css-1qn0b6x">
+                                <div class=" css-1qn0b6x">
+                                    <div class=" css-1rocox3">
+                                        <div class=" css-1qn0b6x" aria-labelledby="businessPassport-:r7:" role="region">
+                                            <div class="container__09f24__jlwpK css-1knnyis">
+                                                <div class="css-1jlm262">
+                                                    <div class="css-mbp3hu">
+                                                        <div class="css-opmknv">
+                                                            <div
+                                                                class="businessTitleContainer__09f24__Teg0n css-1qn0b6x">
+                                                                <p class=" css-1c994ch"><a
+                                                                        href="/biz/606-san-francisco-2"
+                                                                        class="businessTitleLink__09f24__yn6_N css-1dvzjst"
+                                                                        target="_self" id="businessPassport-:r7:"
+                                                                        role="link">606</a></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="css-1c9o6ng"></div>
+                                                    </div>
+                                                    <div class=" css-1pkb2vf">
+                                                        <div
+                                                            class="arrange__09f24__LDfbs gutter-1__09f24__yAbCL vertical-align-middle__09f24__zU9sE css-1qn0b6x">
+                                                            <div class=" rating arrange-unit__09f24__rqHTg css-v3nuob">
+                                                                <span class=" css-1d8srnw">
+                                                                    <div class="css-14g69b3" role="img"
+                                                                        aria-label="4.8 star rating">
+                                                                        <div class="css-1ljpb85"><svg width="20"
+                                                                                height="20" viewBox="0 0 20 20">
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                                </path>
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                                </path>
+                                                                                <path fill="white" fill-rule="evenodd"
+                                                                                    clip-rule="evenodd"
+                                                                                    d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                                </path>
+                                                                            </svg></div>
+                                                                        <div class="css-1ljpb85"><svg width="20"
+                                                                                height="20" viewBox="0 0 20 20">
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                                </path>
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                                </path>
+                                                                                <path fill="white" fill-rule="evenodd"
+                                                                                    clip-rule="evenodd"
+                                                                                    d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                                </path>
+                                                                            </svg></div>
+                                                                        <div class="css-1ljpb85"><svg width="20"
+                                                                                height="20" viewBox="0 0 20 20">
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                                </path>
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                                </path>
+                                                                                <path fill="white" fill-rule="evenodd"
+                                                                                    clip-rule="evenodd"
+                                                                                    d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                                </path>
+                                                                            </svg></div>
+                                                                        <div class="pb8css-1lj5"><svg width="20"
+                                                                                height="20" viewBox="0 0 20 20">
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                                </path>
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                                </path>
+                                                                                <path fill="white" fill-rule="evenodd"
+                                                                                    clip-rule="evenodd"
+                                                                                    d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                                </path>
+                                                                            </svg></div>
+                                                                        <div class="css-tgzc6n"><svg width="20"
+                                                                                height="20" viewBox="0 0 20 20">
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M0 4C0 1.79086 1.79086 0 4 0H10V20H4C1.79086 20 0 18.2091 0 16V4Z">
+                                                                                </path>
+                                                                                <path fill="rgba(251,67,60,1)"
+                                                                                    opacity="1"
+                                                                                    d="M20 4C20 1.79086 18.2091 0 16 0H10V20H16C18.2091 20 20 18.2091 20 16V4Z">
+                                                                                </path>
+                                                                                <path fill="white" fill-rule="evenodd"
+                                                                                    clip-rule="evenodd"
+                                                                                    d="M10 13.3736L12.5949 14.7111C12.7378 14.7848 12.9006 14.8106 13.0593 14.7847C13.4681 14.718 13.7454 14.3325 13.6787 13.9237L13.2085 11.0425L15.2824 8.98796C15.3967 8.8748 15.4715 8.72792 15.4959 8.569C15.5588 8.15958 15.2779 7.77672 14.8685 7.71384L11.983 7.2707L10.6699 4.66338C10.5975 4.51978 10.481 4.40322 10.3374 4.33089C9.96742 4.14458 9.51648 4.29344 9.33017 4.66338L8.01705 7.2707L5.13157 7.71384C4.97265 7.73825 4.82577 7.81309 4.71261 7.92731C4.42109 8.22158 4.42332 8.69645 4.71759 8.98796L6.79152 11.0425L6.32131 13.9237C6.29541 14.0824 6.3212 14.2452 6.39486 14.3881C6.58464 14.7563 7.03696 14.9009 7.40514 14.7111L10 13.3736Z">
+                                                                                </path>
+                                                                            </svg></div>
+                                                                    </div>
+                                                                    <meta itemprop="ratingValue" content="4.8">
+                                                                </span></div>
+                                                            <div
+                                                                class="arrange-unit__09f24__rqHTg arrange-unit-fill__09f24__CUubG css-1qn0b6x">
+                                                                <span
+                                                                    class="fixed-size-text__09f24__bUCrM fixed-size-text--small__09f24__Bc2oE css-chan6m"><span
+                                                                        class=""><span
+                                                                            itemprop="reviewCount">44</span></span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div><span class=" css-1d8srnw"></span><span
+                                                        class=" css-1d8srnw"><span class=" css-1d8srnw"
+                                                            aria-label="Categories"><span class=" css-1d8srnw"><span
+                                                                    class="fixed-size-text__09f24__bUCrM fixed-size-text--small__09f24__Bc2oE css-12i50in">Chinese,
+                                                                </span></span><span class=" css-1d8srnw"><span
+                                                                    class="fixed-size-text__09f24__bUCrM fixed-size-text--small__09f24__Bc2oE css-12i50in">Hong
+                                                                    Kong Style Cafe, </span></span><span
+                                                                class=" css-1d8srnw"><span
+                                                                    class="fixed-size-text__09f24__bUCrM fixed-size-text--small__09f24__Bc2oE css-12i50in">Diners</span></span></span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="css-1yzc310 ">
+                            <div class=" css-1qn0b6x">
+                                <div class="css-ll0zsu"><a
+                                        href="/biz_photos/606-san-francisco-2?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                        class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/jpBHtnozINNfDTv8ZiD2nQ/l.jpg"
+                                            alt="Photo of 606" width="130" height="110" loading="eager"
+                                            draggable="true"></a></div>
+                                <div class="css-1kefc12">
+                                    <div class="css-1hbmzzg">
+                                        <div class="css-1c9o6ng">
+                                            <div class="css-1stzk3b" aria-label="0 likes" role="button"
+                                                aria-pressed="false" aria-disabled="false" tabindex="0">
+                                                <div class="css-15auhu0">
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-1w4iqij">
+                                                            <div class="reaction--button css-1q7tf05"
+                                                                data-testid="reaction-button"><span alt=""
+                                                                    aria-hidden="true" role="img"
+                                                                    class="icon--24-like-v2 css-18q1t4s"><svg width="24"
+                                                                        height="24" class="icon_svg">
+                                                                        <path
+                                                                            d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h6v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z">
+                                                                        </path>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-41avan">
+                                                            <div class="css-1c9o6ng"> </div>
+                                                            <div class="css-12xzhjz" aria-hidden="true"><span
+                                                                    class=" css-gutk1c">likes</span> <span
+                                                                    class=" css-1sb02f4">1</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" css-1qn0b6x">
+                                <div class="css-1iabmyx"><a
+                                        href="/biz_photos/606-san-francisco-2?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                        class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/ftpkVPAN-nC1rM9LXAjeCw/l.jpg"
+                                            alt="Photo of 606" width="130" height="110" loading="eager"
+                                            draggable="true"></a></div>
+                                <div class="css-1kefc12">
+                                    <div class="css-1hbmzzg">
+                                        <div class="css-1c9o6ng">
+                                            <div class="css-1stzk3b" aria-label="0 likes" role="button"
+                                                aria-pressed="false" aria-disabled="false" tabindex="0">
+                                                <div class="css-15auhu0">
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-1w4iqij">
+                                                            <div class="reaction--button css-1q7tf05"
+                                                                data-testid="reaction-button"><span alt=""
+                                                                    aria-hidden="true" role="img"
+                                                                    class="icon--24-like-v2 css-18q1t4s"><svg width="24"
+                                                                        height="24" class="icon_svg">
+                                                                        <path
+                                                                            d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h6v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z">
+                                                                        </path>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-41avan">
+                                                            <div class="css-1c9o6ng"> </div>
+                                                            <div class="css-12xzhjz" aria-hidden="true"><span
+                                                                    class=" css-gutk1c">likes</span> <span
+                                                                    class=" css-1sb02f4">1</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" css-1qn0b6x">
+                                <div class="css-1hru36c"><a
+                                        href="/biz_photos/606-san-francisco-2?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                        class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/0K1i-Nrrrf3g2syEA8nRBg/l.jpg"
+                                            alt="Photo of 606" width="130" height="110" loading="eager"
+                                            draggable="true"></a></div>
+                                <div class="css-1kefc12">
+                                    <div class="css-1hbmzzg">
+                                        <div class="css-1c9o6ng">
+                                            <div class="css-1stzk3b" aria-label="0 likes" role="button"
+                                                aria-pressed="false" aria-disabled="false" tabindex="0">
+                                                <div class="css-15auhu0">
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-1w4iqij">
+                                                            <div class="reaction--button css-1q7tf05"
+                                                                data-testid="reaction-button"><span alt=""
+                                                                    aria-hidden="true" role="img"
+                                                                    class="icon--24-like-v2 css-18q1t4s"><svg width="24"
+                                                                        height="24" class="icon_svg">
+                                                                        <path
+                                                                            d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h6v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z">
+                                                                        </path>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-41avan">
+                                                            <div class="css-1c9o6ng"> </div>
+                                                            <div class="css-12xzhjz" aria-hidden="true"><span
+                                                                    class=" css-gutk1c">likes</span> <span
+                                                                    class=" css-1sb02f4">1</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" css-1qn0b6x">
+                                <div class="css-19cg72e"><a
+                                        href="/biz_photos/606-san-francisco-2?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                        class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/ng-WYSRhF95MKa08hfInRQ/l.jpg"
+                                            alt="Photo of 606" width="130" height="110" loading="eager"
+                                            draggable="true"></a></div>
+                                <div class="css-1kefc12">
+                                    <div class="css-1hbmzzg">
+                                        <div class="css-1c9o6ng">
+                                            <div class="css-1stzk3b" aria-label="0 likes" role="button"
+                                                aria-pressed="false" aria-disabled="false" tabindex="0">
+                                                <div class="css-15auhu0">
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-1w4iqij">
+                                                            <div class="reaction--button css-1q7tf05"
+                                                                data-testid="reaction-button"><span alt=""
+                                                                    aria-hidden="true" role="img"
+                                                                    class="icon--24-like-v2 css-18q1t4s"><svg width="24"
+                                                                        height="24" class="icon_svg">
+                                                                        <path
+                                                                            d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h6v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z">
+                                                                        </path>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-41avan">
+                                                            <div class="css-1c9o6ng"> </div>
+                                                            <div class="css-12xzhjz" aria-hidden="true"><span
+                                                                    class=" css-gutk1c">likes</span> <span
+                                                                    class=" css-1sb02f4">1</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class=" css-1qn0b6x">
+                                <div class="css-1l30ymb"><a
+                                        href="/biz_photos/606-san-francisco-2?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                        class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/pZsmyJMEBiSfwjqVO2LfZg/l.jpg"
+                                            alt="Photo of 606" width="130" height="110" loading="eager" draggable="true"></a></div>
+                                <div class="css-1kefc12">
+                                    <div class="css-1hbmzzg">
+                                        <div class="css-1c9o6ng">
+                                            <div class="css-1stzk3b" aria-label="0 likes" role="button"
+                                                aria-pressed="false" aria-disabled="false" tabindex="0">
+                                                <div class="css-15auhu0">
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-1w4iqij">
+                                                            <div class="reaction--button css-1q7tf05"
+                                                                data-testid="reaction-button"><span alt=""
+                                                                    aria-hidden="true" role="img"
+                                                                    class="icon--24-like-v2 css-18q1t4s"><svg width="24"
+                                                                        height="24" class="icon_svg">
+                                                                        <path
+                                                                            d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h6v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z">
+                                                                        </path>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-41avan">
+                                                            <div class="css-1c9o6ng"> </div>
+                                                            <div class="css-12xzhjz" aria-hidden="true"><span
+                                                                    class=" css-gutk1c">likes</span> <span
+                                                                    class=" css-1sb02f4">1</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class=" css-1qn0b6x">
+                                <div class="css-1j7jfgk"><a
+                                        href="/biz_photos/606-san-francisco-2?userid=BD0GW9Z0J_bo-QA3Su1PwQ"
+                                        class="css-1hqkluu" target="_self"><img class=" css-xlzvdl"
+                                            src="https://s3-media0.fl.yelpcdn.com/bphoto/hzWCEeo-gmC2HQT5RczJ7A/l.jpg"
+                                            alt="Photo of 606" width="130" height="" loading="eager" draggable="true"></a></div>
+                                <div class="css-1kefc12">
+                                    <div class="css-1hbmzzg">
+                                        <div class="css-1c9o6ng">
+                                            <div class="css-1stzk3b" aria-label="0 likes" role="button"
+                                                aria-pressed="false" aria-disabled="false" tabindex="0">
+                                                <div class="css-15auhu0">
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-1w4iqij">
+                                                            <div class="reaction--button css-1q7tf05"
+                                                                data-testid="reaction-button"><span alt=""
+                                                                    aria-hidden="true" role="img"
+                                                                    class="icon--24-like-v2 css-18q1t4s"><svg width="24"
+                                                                        height="24" class="icon_svg">
+                                                                        <path
+                                                                            d="M22.35 9.13A3 3 0 0 0 20 8h-3V4.28A3.28 3.28 0 0 0 13.72 1a2 2 0 0 0-1.9 1.37L9.28 10H2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h13.25c.21 0 5.11-.08 6.7-7.12l1-4.21a3 3 0 0 0-.6-2.54ZM3 12h6v9H3v-9Zm18-.77-1 4.2C18.78 20.85 15.38 21 15.25 21H11v-9.84L13.72 3c.707 0 1.28.573 1.28 1.28V9a1 1 0 0 0 1 1h4a1 1 0 0 1 .78.38 1 1 0 0 1 .22.85Z">
+                                                                        </path>
+                                                                    </svg></span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="css-1c9o6ng">
+                                                        <div class="css-41avan">
+                                                            <div class="css-1c9o6ng"> </div>
+                                                            <div class="css-12xzhjz" aria-hidden="true"><span
+                                                                    class=" css-gutk1c">likes</span> <span
+                                                                    class=" css-1sb02f4">1</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="css-jarney">
+                        <div class=" css-i4guvk">
+                            <!-- <div class=" css-1698uk1"><button class=" css-1n40tdh" type="submit"><span
+                                        class="css-15j7fnr">
+                                        <p class=" css-war30n">Show less</p>
+                                    </span></button></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section class="main">
+        <hr>
+        <h2 class="recent">Categories</h2>
+
+
+        <div
+            class=" cat arrange__09f24__LDfbs gutter-5__09f24__NN5cr layout-wrap__09f24__GEBlv layout-4-units__09f24__FvTbi css-1qn0b6x">
+            
+            <div class="box">
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a
+                    href="/search?find_desc=Restaurants&amp;find_loc=San+Francisco%2C+CA"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/8bc05b287157/assets/img/svg_illustrations/40x40_food_v2.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">Restaurants</p>
+                    </div>
+                </a></div>
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a
+                    href="/search?find_desc=Shopping&amp;find_loc=San+Francisco%2C+CA"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/488aeb87ef6e/assets/img/svg_illustrations/40x40_gift_shops_v2.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">Shopping</p>
+                    </div>
+                </a></div>
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a
+                    href="/search?find_desc=Nightlife&amp;find_loc=San+Francisco%2C+CA"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/1397897c21a5/assets/img/svg_illustrations/40x40_new_v2.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">Nightlife</p>
+                    </div>
+                </a></div>
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a
+                    href="/search?find_desc=Active+Life&amp;find_loc=San+Francisco%2C+CA"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/0372f8e93aa9/assets/img/svg_illustrations/40x40_set_objective_v2.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">Active Life</p>
+                    </div>
+                </a></div>
+            </div>
+
+            <!-- againdiv -->
+
+            <div class="box2">
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a
+                    href="/search?find_desc=Beauty+%26+Spas&amp;find_loc=San+Francisco%2C+CA"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5bd5d2648742/assets/img/svg_illustrations/40x40_barbers_v2.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">Beauty &amp; Spas</p>
+                    </div>
+                </a></div>
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a
+                    href="/search?find_desc=Automotive&amp;find_loc=San+Francisco%2C+CA"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/5967f38fe621/assets/img/svg_illustrations/40x40_auto_v2.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">Automotive</p>
+                    </div>
+                </a></div>
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a
+                    href="/search?find_desc=Home+Services&amp;find_loc=San+Francisco%2C+CA"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/srv0/yelp_design_cdn/7fc312973cf8/assets/img/svg_illustrations/40x40_home_services_v2.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">Home Services</p>
+                    </div>
+                </a></div>
+            <div class=" sub-box arrange-unit__09f24__rqHTg css-1qn0b6x"><a href="/search"
+                    class="categoryTileAnchor__09f24__VB0Dz css-1jxkguo" role="link">
+                    <div class="categoryTile__09f24__ql_Ti css-1wavh94">
+                        <div class=" css-9ul5p9"><img class=""
+                                src="https://s3-media0.fl.yelpcdn.com/assets/public/40x40_more_v2.yji-961fdce2fd036f85fb01.svg">
+                        </div>
+                        <p class=" css-lgg6ic" data-font-weight="semibold">More</p>
+                    </div>
+                </a></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <ul class="footer-column">
+                    <li><b><a href="#"  class="text-dark">About Us</a></b></li>
+                    <li><a href="#">About Yelp</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Trust & Safety</a></li>
+                    <li><a href="#">Content Guidelines</a></li>
+                    <li><a href="#">Accessibility Statement</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Ad Choices</a></li>
+                    <li><a href="#">Your Privacy Choices</a></li>
+                </ul>
+                <ul class="footer-column">
+                  <li><b><a href="#" class="text-dark">Discover</a></b></li>
+                  <li><a href="#">Yelp Project Cost Guides</a></li>
+                  <li><a href="#">Collections</a></li>
+                  <li><a href="#">Talk</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Yelp Blog</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Yelp Mobile</a></li>
+                  <li><a href="#">Developers</a></li>
+                  <li><a href="#">RSS</a></li>
+              </ul>
+                <ul class="footer-column">
+                    <li><b><a href="#"  class="text-dark">Yelp For Business</a></b></li>
+                    <li><a href="#">Business Owner Login</a></li>              
+                    <li><a href="#">Claim your Business Page</a></li>
+                    <li><a href="#">Advertise on Yelp</a></li>
+                    <li><a href="#">Yelp for Restaurant Owners</a></li>
+                    <li><a href="#">Table Management</a></li>
+                    <li><a href="#">Business Success Stories</a></li>
+                    <li><a href="#">Business Support</a></li>
+                    <li><a href="#"> Yelp Blog for Business</a></li>  
+                </ul>
+                <ul class="footer-column">
+                    <li><b><a href="#"  class="text-dark">Languages</a></b></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Others</a></li>
+                </ul>
+            </div>
+            <p>Copyright © 2004–2024 Yelp Inc. Yelp,<i class="fa-brands fa-yelp"></i>, Yelp burst and related marks are registered trademarks of Yelp.</p>
+        </div>
+    </footer>
+  
+  
+  
+</b>
+
+</body>
+
+</html>
